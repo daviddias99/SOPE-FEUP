@@ -1,0 +1,10 @@
+ #!/bin/bash 
+
+PGR_NAME
+
+if [ "$1" != ""]; then
+    FILE_NAME = $1
+
+
+
+
