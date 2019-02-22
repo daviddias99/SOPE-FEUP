@@ -26,65 +26,87 @@ int main(int argc, char* argv[]){
     int tokenCnt = 0;
     int cmdCnt = 0;
 
-    char** commands = malloc(sizeof(char*) * MAX_COMMAND_NUM);
-    char*** tokens =  malloc(sizeof(char*) * MAX_TOKEN_NUM*MAX_TOKEN_SIZE*MAX_COMMAND_NUM);
+    // string containing the commands obtained from the user
     char* commandsStr = malloc(sizeof(char) * MAX_COMMAND_SIZE);
 
+    // commands holds all the commands given by the user. These commands come from the decomposition of 'commandsStr'
+    char** commands = malloc(sizeof(char*) * MAX_COMMAND_NUM);
+
+    // '2d' array that holds all the tokens. This array stores in each 'line' a command given by the user. Each column
+    // stores one token from that lines command
+    char*** tokens =  malloc(sizeof(char*) * MAX_COMMAND_NUM);
+
+    // memory allocation for the array
+    for (int i = 0; i< MAX_COMMAND_NUM; i++) {
+
+         tokens[i] = (char **) malloc(MAX_TOKEN_NUM*sizeof(char **));
+
+          for (int j = 0; j < MAX_TOKEN_NUM; j++) {
+
+              tokens[i][j] = (char *)malloc(MAX_TOKEN_SIZE*sizeof(char *));
+          }
+
+    }
+
+    // get the commands from the user
     char* validOp = fgets(commandsStr,MAX_COMMAND_SIZE*MAX_COMMAND_NUM, stdin);
 
     if(validOp == NULL)
         return 2;
 
-    commands[cmdCnt] = strtok(commandsStr, ";");
-    commands[cmdCnt] = strtok(commandsStr, "|");
+    // decompose the given commands
+
+    commands[cmdCnt] = strtok(commandsStr, ";|");
     cmdCnt++;
+
 
     while(true){
 
-        commands[cmdCnt] = strtok(NULL, ";");
+        commands[cmdCnt] = strtok(NULL, ";|");
 
         if(commands[cmdCnt] == NULL)
             break;
         cmdCnt++;
     }
+    
 
+    // decompose each command given into tokens
     for (int i = 0; i < cmdCnt; i++)
     {
 
         commandsStr = commands[i];
-
-        if (validOp == NULL)
-            return 2;
         tokenCnt = 0;
-        tokens[cmdCnt][tokenCnt] = strtok(commandsStr, " ");
+        
+        tokens[i][tokenCnt] = strtok(commandsStr, " ");
         tokenCnt++;
-
         while (true)
         {
-
-            tokens[cmdCnt][tokenCnt] = strtok(NULL, " ");
-
-            if (tokens[cmdCnt][tokenCnt] == NULL)
+            
+            tokens[i][tokenCnt] = strtok(NULL, " ");
+            if (tokens[i][tokenCnt] == NULL)
                 break;
             tokenCnt++;
         }
     }
 
+    // print all the tokens
+    
     for(int i = 0; i < cmdCnt; i++){
         
         int j = 0;
         do{
 
-            char* currToken = tokens[cmdCnt][j];
+            char* currToken = tokens[i][j];
             
             if(currToken == NULL)
                 break;
             
             printf("%s ", currToken);
 
+            j++;
+
         }while(1);
         printf("\n");
     }
-
     return 0;
 }
