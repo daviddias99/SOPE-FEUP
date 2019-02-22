@@ -90,7 +90,7 @@ int main(int argc, char* argv[]){
     }
 
     // print all the tokens
-    
+
     for(int i = 0; i < cmdCnt; i++){
         
         int j = 0;
@@ -108,5 +108,10 @@ int main(int argc, char* argv[]){
         }while(1);
         printf("\n");
     }
+
+
+    // WARNING: ALL THE DINAMICALLY ALOCATED MEMORY SHOULD BE FREED
+
+
     return 0;
 }
