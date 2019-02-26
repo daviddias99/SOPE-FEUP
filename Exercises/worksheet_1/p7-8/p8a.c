@@ -42,6 +42,7 @@ int main(int argc, char* argv[]){
     printf("User ticks/seconds: %f | %f \n",(float)usrTimeTicks,(float)usrTimeTicks/ sysconf(_SC_CLK_TCK));
     */
 
+    printf(" --- %ld \n", tmsFinal.tms_cstime);
     printf("Clock: %4.2f s\n", (double)(end - start) / ticks);
     printf("User time: %4.2f s\n", (double)tmsFinal.tms_utime / ticks);
     printf("System time: %4.2f s\n", (double)tmsFinal.tms_stime / ticks);
