@@ -25,24 +25,29 @@ int main(int argc, char* argv[]){
         return -2;
     }
 
+    // variables used to store the current Names and Grades and the number of chars read
     char currentWord[MAX_STRING_SIZE+1];
     currentWord[MAX_STRING_SIZE] = '\0';
-    int numberRead, numberWritten;
+    int nChRead,nChWritten;
 
     do{
 
-        numberRead = read(STDOUT_FILENO,currentWord,MAX_STRING_SIZE);
+        // read the name/grade
 
-        if(numberRead == -1){
+        nChRead = read(STDOUT_FILENO,currentWord,MAX_STRING_SIZE);
+
+        if(nChRead == -1){
 
             printf("Something went wrong. \n");
             return -3;
 
         }
 
-        numberWritten = write(destFD, currentWord,numberRead);
+        // write the name/grade
 
-        if(numberWritten < numberRead){
+        nChWritten = write(destFD, currentWord,nChRead);
+
+        if(nChWritten < nChRead){
 
             printf("Something went wrong. \n");
             return -4;
@@ -50,10 +55,14 @@ int main(int argc, char* argv[]){
         }
 
 
-    }while( (numberRead != 1) && (currentWord[numberRead] != '\n'));
+    }while( (nChRead != 1) && (currentWord[nChRead] != '\n'));
 
+    // close the destination file
 
-    close(destFD);
+    if(close(destFD) == -1){
+        printf("Something went wrong with the output file saving. \n");
+        return -5;
+    }
 
     return 0;
 }
