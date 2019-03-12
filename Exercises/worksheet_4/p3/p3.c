@@ -5,13 +5,14 @@
 #include <sys/types.h>
 
 
+
+
 int main(void) {
 
     int i;
     int delta;
 
     while(true){
-
 
         printf("%d \n",i);
         i += delta;    
