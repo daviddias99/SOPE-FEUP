@@ -1,0 +1,250 @@
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises:
+total 24
+drwxr-xr-x  6 david david 4096 mar 12 14:46 .
+drwxr-xr-x  5 david david 4096 mar 10 18:21 ..
+drwxr-xr-x  6 david david 4096 fev 28 12:22 worksheet_1
+drwxrwxr-x  8 david david 4096 mar  3 19:40 worksheet_2
+drwxrwxr-x 12 david david 4096 mar 14 09:24 worksheet_3
+drwxrwxr-x  5 david david 4096 mar 12 15:42 worksheet_4
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_1:
+total 24
+drwxr-xr-x 6 david david 4096 fev 28 12:22 .
+drwxr-xr-x 6 david david 4096 mar 12 14:46 ..
+drwxrwxr-x 2 david david 4096 fev 28 12:22 p10
+drwxrwxr-x 2 david david 4096 fev 22 11:25 p1-6
+drwxrwxr-x 2 david david 4096 fev 28 12:22 p7
+drwxrwxr-x 2 david david 4096 fev 28 12:22 p8
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_1/p10:
+total 56
+drwxrwxr-x 2 david david 4096 fev 28 12:22 .
+drwxr-xr-x 6 david david 4096 fev 28 12:22 ..
+-rwxrwxr-x 1 david david 8520 fev 22 20:51 p10a
+-rw-rw-r-- 1 david david  712 fev 22 20:51 p10a.c
+-rwxrwxr-x 1 david david 8520 fev 22 20:51 p10b
+-rw-rw-r-- 1 david david 1070 fev 22 20:51 p10b.c
+-rwxrwxr-x 1 david david 8520 fev 22 20:51 p10c
+-rw-rw-r-- 1 david david 2698 fev 22 20:51 p10c.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_1/p1-6:
+total 120
+drwxrwxr-x 2 david david  4096 fev 22 11:25 .
+drwxr-xr-x 6 david david  4096 fev 28 12:22 ..
+-rw-rw-r-- 1 david david    19 fev 21 10:24 infile.txt
+-rw-rw-r-- 1 david david    19 fev 21 10:24 outfile.txt
+-rwxrwxr-x 1 david david  8344 fev 21 10:24 p2a
+-rw-rw-r-- 1 david david   227 fev 21 10:24 p2a.c
+-rw-r--r-- 1 david david    74 fev 21 10:24 p2b.c
+-rwxrwxr-x 1 david david  8304 fev 21 10:24 p5a
+-rw-rw-r-- 1 david david   276 fev 21 10:24 p5a.c
+-rwxrwxr-x 1 david david  8344 fev 21 10:24 p5b
+-rw-rw-r-- 1 david david   844 fev 21 10:24 p5b.c
+-rwxrwxr-x 1 david david  8344 fev 21 10:24 p5c
+-rw-rw-r-- 1 david david   259 fev 21 10:24 p5c.c
+-rwxrwxr-x 1 david david  8656 fev 21 10:24 p6a
+-rw-rw-r-- 1 david david   706 fev 21 10:24 p6a.c
+-rwxrwxr-x 1 david david 12840 fev 21 10:24 p6g
+-rw-rw-r-- 1 david david  1579 fev 21 10:24 p6g.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_1/p7:
+total 24
+drwxrwxr-x 2 david david 4096 fev 28 12:22 .
+drwxr-xr-x 6 david david 4096 fev 28 12:22 ..
+-rwxrwxr-x 1 david david 8448 fev 22 22:51 p7a
+-rw-rw-r-- 1 david david  375 fev 22 22:51 p7a.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_1/p8:
+total 24
+drwxrwxr-x 2 david david 4096 fev 28 12:22 .
+drwxr-xr-x 6 david david 4096 fev 28 12:22 ..
+-rwxrwxr-x 1 david david 8632 fev 28 12:22 p8a
+-rw-rw-r-- 1 david david 1404 fev 28 12:22 p8a.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2:
+total 32
+drwxrwxr-x 8 david david 4096 mar  3 19:40 .
+drwxr-xr-x 6 david david 4096 mar 12 14:46 ..
+drwxrwxr-x 2 david david 4096 fev 28 12:23 p1-2
+drwxrwxr-x 2 david david 4096 fev 28 12:23 p2
+drwxrwxr-x 2 david david 4096 fev 28 12:22 p3
+drwxrwxr-x 2 david david 4096 mar  3 19:00 p4
+drwxr-xr-x 2 david david 4096 mar  3 19:29 p5
+drwxr-xr-x 2 david david 4096 mar  5 18:59 p6
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p1-2:
+total 24
+drwxrwxr-x 2 david david 4096 fev 28 12:23 .
+drwxrwxr-x 8 david david 4096 mar  3 19:40 ..
+-rwxrwxr-x 1 david david 8752 fev 28 08:55 p1
+-rw-rw-r-- 1 david david 1008 fev 28 08:55 p1.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p2:
+total 188
+drwxrwxr-x 2 david david  4096 fev 28 12:23 .
+drwxrwxr-x 8 david david  4096 mar  3 19:40 ..
+-rw-rw-r-- 1 david david 48565 fev 28 12:23 input2a.txt
+-rw-rw-r-- 1 david david    79 fev 28 12:23 input2b.txt
+-rw-rw-r-- 1 david david 48565 fev 28 12:23 output2a.txt
+-rw-r--r-- 1 david david 48565 fev 28 12:23 output2b.txt
+-rwxrwxr-x 1 david david  8528 fev 28 12:23 p2a
+-rw-rw-r-- 1 david david   571 fev 28 12:23 p2a.c
+-rwxrwxr-x 1 david david  8520 fev 28 12:23 p2b
+-rw-rw-r-- 1 david david   664 fev 28 12:23 p2b.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p3:
+total 44
+drwxrwxr-x 2 david david 4096 fev 28 12:22 .
+drwxrwxr-x 8 david david 4096 mar  3 19:40 ..
+-rw-rw-r-- 1 david david  445 fev 28 12:22 input3.txt
+-rwxrwxr-x 1 david david 8520 fev 28 12:22 p3a
+-rw-rw-r-- 1 david david  628 fev 28 12:22 p3a.c
+-rwxrwxr-x 1 david david 8608 fev 28 12:22 p3b
+-rw-rw-r-- 1 david david  719 fev 28 12:22 p3b.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p4:
+total 60
+drwxrwxr-x 2 david david 4096 mar  3 19:00 .
+drwxrwxr-x 8 david david 4096 mar  3 19:40 ..
+-rw-r--r-- 1 david david  112 mar  3 19:00 outputB.txt
+-rw-r--r-- 1 david david    0 fev 28 12:49 output.txt
+-rwxrwxr-x 1 david david 8568 fev 28 12:48 p4a
+-rw-rw-r-- 1 david david 1484 mar  3 19:02 p4a.c
+-rwxrwxr-x 1 david david 8592 mar  3 18:59 p4bR
+-rw-rw-r-- 1 david david 2020 mar  3 18:58 p4bR.c
+-rwxrwxr-x 1 david david 8608 mar  3 18:59 p4bW
+-rw-rw-r-- 1 david david 1810 mar  3 18:59 p4bW.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p5:
+total 44
+drwxr-xr-x 2 david david 4096 mar  3 19:29 .
+drwxrwxr-x 8 david david 4096 mar  3 19:40 ..
+-rw------- 1 david david   10 mar  3 19:28 f1.txt
+-rwxrwxr-x 1 david david 8472 mar  3 19:29 p5a
+-rw-r--r-- 1 david david  402 mar  3 19:28 p5a.c
+-rwxrwxr-x 1 david david 8472 mar  3 19:28 p5b
+-rw-r--r-- 1 david david  380 mar  3 19:28 p5b.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_2/p6:
+total 44
+drwxr-xr-x 2 david david 4096 mar  5 18:59 .
+drwxrwxr-x 8 david david 4096 mar  3 19:40 ..
+-rwxrwxr-x 1 david david 8688 mar  5 18:59 p6
+-rw-r--r-- 1 david david  986 mar  5 19:04 p6.c
+-rwxrwxr-x 1 david david 8744 mar  5 18:48 p6_p
+-rw-rw-r-- 1 david david 1218 mar  5 18:48 p6_professor.c
+-rw-rw-r-- 1 david david   34 mar  3 20:46 temp1.txt
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3:
+total 48
+drwxrwxr-x 12 david david 4096 mar 14 09:24 .
+drwxr-xr-x  6 david david 4096 mar 12 14:46 ..
+drwxrwxr-x  2 david david 4096 mar 10 17:51 p1
+drwxrwxr-x  2 david david 4096 mar 14 09:52 p10
+drwxrwxr-x  2 david david 4096 mar 12 15:32 p2
+drwxrwxr-x  2 david david 4096 mar 10 18:08 p3
+drwxrwxr-x  2 david david 4096 mar 10 18:25 p4
+drwxrwxr-x  2 david david 4096 mar 12 09:51 p5
+drwxrwxr-x  2 david david 4096 mar 12 11:12 p6
+drwxrwxr-x  2 david david 4096 mar 12 11:21 p7
+drwxrwxr-x  2 david david 4096 mar 12 14:43 p8
+drwxrwxr-x  2 david david 4096 mar 12 21:21 p9
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p1:
+total 24
+drwxrwxr-x  2 david david 4096 mar 10 17:51 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8464 mar 10 17:51 p1
+-rw-rw-r--  1 david david  474 mar 10 17:51 p1.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p10:
+total 28
+drwxrwxr-x  2 david david 4096 mar 14 09:52 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rw-r--r--  1 david david 4096 mar 14 09:52 output.txt
+-rwxrwxr-x  1 david david 8600 mar 14 09:52 p10
+-rw-rw-r--  1 david david  856 mar 14 09:52 p10.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p2:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 15:32 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8336 mar 12 15:32 p2
+-rw-rw-r--  1 david david  636 mar 10 18:05 p2.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p3:
+total 24
+drwxrwxr-x  2 david david 4096 mar 10 18:08 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8528 mar 10 18:08 p3
+-rw-rw-r--  1 david david  617 mar 10 18:22 p3.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p4:
+total 24
+drwxrwxr-x  2 david david 4096 mar 10 18:25 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8472 mar 10 18:25 p4
+-rw-rw-r--  1 david david  546 mar 10 18:26 p4.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p5:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 09:51 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8472 mar 12 09:51 p5
+-rw-rw-r--  1 david david  468 mar 12 09:51 p5.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p6:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 11:12 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8600 mar 12 11:12 p6
+-rw-rw-r--  1 david david 1052 mar 12 11:13 p6.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p7:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 11:21 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8432 mar 12 11:21 p7
+-rw-rw-r--  1 david david  276 mar 12 11:21 p7.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p8:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 14:43 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8512 mar 12 14:43 p8
+-rw-rw-r--  1 david david 1028 mar 12 14:43 p8.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_3/p9:
+total 24
+drwxrwxr-x  2 david david 4096 mar 12 21:21 .
+drwxrwxr-x 12 david david 4096 mar 14 09:24 ..
+-rwxrwxr-x  1 david david 8512 mar 12 21:21 p9
+-rw-rw-r--  1 david david 1380 mar 12 21:20 p9.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_4:
+total 20
+drwxrwxr-x 5 david david 4096 mar 12 15:42 .
+drwxr-xr-x 6 david david 4096 mar 12 14:46 ..
+drwxrwxr-x 2 david david 4096 mar 12 15:10 p1
+drwxrwxr-x 2 david david 4096 mar 12 15:40 p2
+drwxrwxr-x 2 david david 4096 mar 12 15:42 p3
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_4/p1:
+total 24
+drwxrwxr-x 2 david david 4096 mar 12 15:10 .
+drwxrwxr-x 5 david david 4096 mar 12 15:42 ..
+-rwxrwxr-x 1 david david 8608 mar 12 15:10 p1
+-rw-rw-r-- 1 david david  716 mar 12 15:17 p1.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_4/p2:
+total 24
+drwxrwxr-x 2 david david 4096 mar 12 15:40 .
+drwxrwxr-x 5 david david 4096 mar 12 15:42 ..
+-rwxrwxr-x 1 david david 8688 mar 12 15:40 p2
+-rw-rw-r-- 1 david david 1103 mar 13 11:56 p2.c
+
+/home/david/Documents/Repositórios/SOPE-FEUP/Exercises/worksheet_4/p3:
+total 12
+drwxrwxr-x 2 david david 4096 mar 12 15:42 .
+drwxrwxr-x 5 david david 4096 mar 12 15:42 ..
+-rw-rw-r-- 1 david david  210 mar 12 18:10 p3.c
