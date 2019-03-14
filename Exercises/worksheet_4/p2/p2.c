@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-/*
+
 void sigint_handler(int signo)
 {
     printf("Entering SIGINT handler ...\n");
@@ -55,4 +55,3 @@ int main(void)
         pause();
     exit(0); 
 }
-*/
