@@ -66,18 +66,14 @@ int main(int argc, char *argv[])
 
             if (nTokens >= 3)
             {
-                printf("-o: %s \n",tokens[nTokens - 2]);
+
                 if (strcmp(tokens[nTokens - 2], "-o") == 0)
                 {
 
                     destFD = open(tokens[nTokens - 1], O_WRONLY | O_CREAT, 0644);
-
                     dup2(destFD, STDOUT_FILENO);
-
                     tokens[nTokens -2] = NULL;
-                }
-
-                
+                }       
             }
             execvp(tokens[0], tokens);
         }
