@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     struct dirent *direntp;
     struct stat stat_buf;
     char *str;
+    char name[257];
 
     if (argc != 2)
     {
@@ -25,8 +26,9 @@ int main(int argc, char *argv[])
     }
 
     while ((direntp = readdir(dirp)) != NULL)
-    {
-        if (stat(direntp->d_name, &stat_buf) == -1) // testar com stat()
+    {   
+        sprintf(name, "%s/%s", argv[1], direntp->d_name); // <----- NOTAR
+        if (lstat(name, &stat_buf) == -1) // testar com stat()
         {
             perror("lstat ERROR");
             exit(3);
