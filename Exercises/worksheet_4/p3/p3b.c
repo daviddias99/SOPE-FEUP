@@ -40,7 +40,7 @@ int main(void) {
 
         //  NOTA: pode acontecer que o processo envie o primeiro sigusr1 antes que o filho instale o handler
         //  usar sigsuspend para evitar isso.
-        
+
         usrAction.sa_handler = SIG_IGN;
         sigaction(SIGUSR1, &usrAction, NULL);
         sigaction(SIGUSR2, &usrAction, NULL);
@@ -48,7 +48,7 @@ int main(void) {
         do{
 
             if(randomBetween(1,4) == 2)
-                kill(-getpid(),SIGUSR1);
+                kill(pid,SIGUSR1);
             
             sleep(1);
 
