@@ -36,14 +36,11 @@ int main(int argc, char* argv[]){
         execlp("sort","sort",NULL);
     }
     close(fd[READ]);
-    
-    while((nRead = read(fileFD,line,50)) != 0 ){
 
-        write(fd[WRITE],line,50);
+    while((nRead = read(fileFD,line,50)) != 0 )
+        write(fd[WRITE],line,nRead);
 
-    }
-
-
+    close(fd[WRITE]);
 
     return 0;
 }

@@ -36,7 +36,6 @@ int main(int argc, char* argv[]){
         close(fd[READ]);
         dup2(fd[WRITE],STDOUT_FILENO);
         execlp("cat","cat",filename,NULL);
-
     }
 
     return 0;
