@@ -102,31 +102,51 @@ int main(int argc, char* argv[]){
         }
     }
 
-    int fd1[2];
-    pipe(fd1);
+    int tempFD = dup(STDIN_FILENO);
 
+    int* pipes = malloc(2*sizeof(int)*cmdCnt);
+
+    for(int i = 0; i < cmdCnt;i++){
+
+        int* currentPipe = pipes + i * 2;
+        pipe(currentPipe);
+    }
 
     for(int i = 0; i < cmdCnt; i++){
 
+        int* currentPipe = pipes + i * 2;
+        int* nextPipe = pipes + i * 2 + 2;
 
-        pid_t PID1 = fork();
+        pid_t PID = fork();
 
-        if(PID1 > 0){
+        if(PID == 0){
 
-            dup2(fd1[READ],STDIN_FILENO);
+            dup2(currentPipe[READ],STDIN_FILENO);
+            close(currentPipe[READ]);
+            if(i == 0){
+
+                dup2(tempFD,STDIN_FILENO);
+                close(tempFD);
+            }
 
             if(i != cmdCnt -1){
-                 dup2(fd1[WRITE],STDOUT_FILENO);
+
+                dup2(nextPipe[WRITE],STDOUT_FILENO);
+                close(nextPipe[WRITE]);
             }else{
 
-                close(fd1[WRITE]);
+                close(currentPipe[WRITE]);
             }
 
             execvp(tokens[i][0],tokens[i]);
 
         }
 
-        wait(NULL);
+        close(currentPipe[READ]);
+        close(currentPipe[WRITE]);
+        close(nextPipe[WRITE]);
+        dup2(tempFD,STDIN_FILENO);
+
     }
 
     return 0;
