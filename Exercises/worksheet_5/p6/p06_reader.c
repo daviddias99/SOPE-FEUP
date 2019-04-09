@@ -14,7 +14,7 @@ int main(void)
 
     mkfifo("/tmp/myfifo", 0660);
 
-    fd = open("/tmp/myfifo", O_RDWR);
+    fd = open("/tmp/myfifo", O_RDONLY);
 
     int readlineResult;
     while ((readlineResult =  readline(fd, str)))

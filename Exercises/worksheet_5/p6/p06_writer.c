@@ -15,7 +15,7 @@ int main(void)
 
     do
     {
-        fd = open("/tmp/myfifo", O_RDWR);
+        fd = open("/tmp/myfifo", O_WRONLY);
 
         if (fd == -1)
             sleep(1);
