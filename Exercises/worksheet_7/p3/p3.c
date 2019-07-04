@@ -42,7 +42,7 @@ void *verify(void *arg)
 
         pthread_mutex_lock(&mut);
 
-        if(k >= pos){
+        if(k > pos){
 
             k--;
             pthread_mutex_unlock(&mut);
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 
     npos = min(atoi(argv[1]), MAXELEMS);   //no. efectivo de posicoes
     nthr = min(atoi(argv[2]), MAXTHREADS); //no. efectivo de threads
-
+    pthread_create(&tidv, NULL, verify, NULL);
     for (k = 0; k < nthr; k++)
     { 
         // criacao das threads 'fill'
@@ -98,7 +98,7 @@ int main(int argc, char *argv[])
 */
 
     printf("total count = %d\n", total); // mostra total
-    pthread_create(&tidv, NULL, verify, NULL);
+    
     pthread_join(tidv, NULL); // espera thread 'verify'
 
     return 0;
